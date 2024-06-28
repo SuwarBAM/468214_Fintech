@@ -40,7 +40,8 @@ Manages the creation and listing of farms and facilitates interactions between i
 3. **Compile Contracts**: Use the Solidity compiler in Remix to compile both contracts.
 4. **Deploy Contracts**: 
    - Deploy the `FarmFactory` contract using the Remix deploy feature.
-   - Ensure MetaMask is connected and set to the desired network (e.g., Ropsten Testnet or local Ganache).
+   - If you are testing on a testnet, ensure MetaMask is connected and set to the desired network (e.g., Ropsten Testnet or local Ganache).
+   - If you are testing on virtual machine, ensure the correct virtual machine is selected under 'environment'. Preferably Remix VM (Shanghai) or Remix VM (Cancun). Some functionalities are not compatible with all virtual machines.
 5. **Interact with Contracts**: Use the Remix interface to call functions on the deployed contracts for testing.
 
 ### Example Deployment Workflow
